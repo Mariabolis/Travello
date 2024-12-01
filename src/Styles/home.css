@@ -1,0 +1,177 @@
+.hero-header .text-end {
+    text-align: center !important;
+    margin-left: 700px !important;
+    padding-left: 400px;
+
+
+}
+
+.hero-header .position-relative {
+    margin-right: 0 !important;
+    margin-left: 50px !important;
+}
+
+.texxt {
+    text-shadow: 5px 1px 0px #863928,  /* Adjust color for the shadow */
+    -1px -1px 0px #863928,
+    -1px 1px 0px #863928,
+    1px -1px 0px #863928,
+    1px 0px 0px #863928,
+    -1px 0px 0px #863928,
+    0px 1px 0px #863928,
+    0px -1px 0px #863928;
+}
+.tape {
+    background-color: #6E340C; /* Background color of the tape */
+    overflow: hidden;
+    width: 100%; /* Adjust width as needed */
+    position: absolute;
+    top: 650px; /* Adjust the margin-top as needed */
+}
+
+
+.tape-text {
+    animation: ticker var(--duration, 15s) linear infinite;
+    font-size: 22px; /* Increase font size */
+    color: #ffffff; /* Text color */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+margin-top: 10px;
+}
+
+@keyframes ticker {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+.container-xxl {
+  width: 100%;
+  max-width: 1200px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.service-item {
+  text-align: center; /* Center the content inside service items */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  height: 100%; /* Ensure the service item fills the height of its parent */
+}
+
+.marquee {
+    overflow: hidden;
+    width: 100%; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+}
+
+.marquee-inner {
+    width: max-content;
+    white-space: nowrap;
+    position: relative;
+}
+
+.marquee-text {
+    font-size: 24px;
+    line-height: 50px; /* Adjust line height to center the text vertically */
+    padding-right: 20px; /* Add space to the right for better appearance */
+}
+
+.custom-container {
+    max-width:1200px;
+    border: 2px solid #863928; /* Add border styling */
+    padding: 10px; /* Add some padding */
+    border-radius: 10px; /* Optional: add border radius */
+  }
+  
+  .cropped-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 0px solid #6E340C;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+    
+/* custom.css */
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .video-container video {
+    border: 2px solid #6E340C;
+    width: 40%; /* Adjust width as needed */
+    border-radius: 10px;
+    height: 10%;
+    border: 1px solid #ddd; /* Optional: Add border for better visual separation */
+  }
+  
+  .video-container .text-container {
+    width: 85%; /* Adjust width as needed */
+    padding-left: 20px;
+
+  }
+  
+  .bordered-container {
+    border: 2px solid #6E340C;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+  }
+  
+  .Home.btn.btn-primary{
+    height: 100px;
+    width: 500px;
+  }
+
+  .destination-item img {
+    width: 100%;
+    height: 300px; /* Increase the height for larger images */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    transition: transform 0.3s ease;
+  }
+  
+  .destination-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .destination-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .destination-item:hover .position-relative {
+    background: rgba(0, 0, 0, 0.644);
+  }
+  .destination-item .position-relative {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: #a3a3a398;
+    color: white; /* Default text color */
+    transition: all 0.3s ease;
+  }
+  
+  .destination-item .position-relative h2 {
+    color: #863928; /* Default color for destination names */
+  }
+  
+  .destination-item .position-relative h2.highlighted {
+    color: #ff5733; /* Color for highlighted destination names */
+  }
+    

@@ -1,0 +1,36 @@
+/* dest.css */
+
+.Dest.card {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.Dest.fixed-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Dest.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.Dest .react-card-flip {
+    height: 100%;
+}
+.highlight {
+    border: 3px solid yellow;
+    box-shadow: 0 0 15px yellow;
+}

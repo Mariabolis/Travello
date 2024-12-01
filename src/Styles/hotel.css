@@ -1,0 +1,30 @@
+/* Namespace all custom styles under .Hotel */
+.Hotel .card {
+    height: 300px; /* Ensure the card has a fixed height */
+    overflow: hidden; /* Prevent overflow */
+    display: flex;
+    flex-direction: column;
+    border: none; /* Remove default Bootstrap card border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add custom box shadow */
+    margin-bottom: 20px;
+}
+
+.Hotel .fixed-image {
+    width: 100%;
+    height: 100%; /* Ensure the image covers the card */
+    object-fit: cover;
+}
+
+.Hotel .fixed-card-body {
+    display: flex;
+    height: 100%; /* Ensure the card body takes the full height */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.Hotel .react-card-flip {
+    height: 100%; /* Ensure the flip container takes the full height */
+}

@@ -1,0 +1,12 @@
+/* styles.css or your existing CSS file */
+.gallery-img {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+    border: 0.1px solid #f0f0f0; /* Optional: add border for styling */
+    margin-left: 100px;
+  }
+  .gallery {
+    margin-left: 100px;
+  }
+  
