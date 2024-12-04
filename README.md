@@ -16,6 +16,10 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
+https://github.com/user-attachments/assets/3e363151-7ddc-47ba-bbf7-f1bb56ea4593
+
+
+
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
